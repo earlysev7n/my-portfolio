@@ -37,6 +37,8 @@ export default function About() {
           {/* Remove this block if you don't want an image */}
           <Image
             src="/me.png"
+            width={144}   
+            height={144}  
             alt="Profile"
             className="w-36 h-36 object-cover rounded-full border border-gray-700 shadow-lg shadow-blue-500/20"
           />
